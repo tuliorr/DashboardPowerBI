@@ -122,7 +122,7 @@ NOTA 2: Os campos que são utilizados para o relacionamento precisam ser iguais 
 
 ### 2.1 Word Cloud
 
-* Esse gráfico não está configuração padrão dos visuais, portanto deve ser obtido através do marketplace do Power BI (não tem custo)
+* Esse gráfico não está disponível na configuração padrão dos visuais, portanto deve ser obtido através do marketplace do Power BI (não tem custo)
 
 * Clique na última opção dos visuais (reticências) na aba ``Visualizações`` e depois em obter mais visuais
 
