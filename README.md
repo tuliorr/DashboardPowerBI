@@ -36,6 +36,7 @@ O objetivo geral desse projeto é conhecer a ferramenta Microsoft Power BI para 
 * Inserir o relacionamento entre as tabelas de [Vendas] e de [Datas] utilizando o campo ``DATA``
 
 NOTA 1: Sempre será necessário inserir o relacionamento entre as tabelas quando for gerar gráficos que utilizem o cruzamento de dados de diferentes tabelas
+
 NOTA 2: Os campos que são utilizados para o relacionamento precisam ser iguais nas duas tabelas.
 
 ![1](/images/relacionamento_vendas_datas.png)
