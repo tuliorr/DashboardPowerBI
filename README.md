@@ -146,14 +146,14 @@ NOTA 2: Os campos que são utilizados para o relacionamento precisam ser iguais 
 ### 2.2 Gráfico Indicador
 
 
-* Para a construção desse gráfico será necessárioa a criação de medidas, as quais representam cálculos realizados entre os dados de diferentes tabelas (ou da mesma)
+* Para a construção desse gráfico será necessário a criação de medidas, as quais representam cálculos realizados entre os dados de diferentes tabelas (ou da mesma)
 
 * As medidas são utilizadas em análises de dados mais comuns, tais como: somas, médias, mínimo, máximo, contagens, etc
 
 * Os resultados dos cálculos das medidas estão sempre se modificando em resposta à sua interação com seus relatórios, permitindo uma exploração de dados ad hoc, rápida e dinâmica
 
-* A boa prática na construção de dashboards orienta criar uma tabela para armanezar todas as medidas criadas, essa tabela pode ser criada por meio do seguinte caminho:
-Menu superior -> Guia Modelagem -> Nova Tabela
+* A boa prática na construção de dashboards orienta criar uma tabela para armanezar todas as medidas elaboradas, essa tabela pode ser criada por meio do seguinte caminho:
+	* Menu superior -> Guia Modelagem -> Nova Tabela
 
 * O nome dessa tabela geralmente é iniciado por "00" para ela ficar no topo da aba ``Campos``
 
@@ -163,7 +163,7 @@ Menu superior -> Guia Modelagem -> Nova Tabela
 	* Margem_Lucro = ((Lucro/Valor total Vendido)/Quantidade de Pedidos)/100
 
 * Uma nova medida pode ser criada por meio do seguinte caminho:
-Menu superior -> Guia Modelagem -> Nova Medida (observar que a tabela ``00_Medidas`` deve estar selecionada)
+	* Menu superior -> Guia Modelagem -> Nova Medida (observar que a tabela ``00_Medidas`` deve estar selecionada)
 
 * Seguem abaixo as fórmulas que devem ser utilizadas em cada medida:
 	* Valor_total_Compra = sumx(Vendas,Vendas[VALOR_UNITARIO_COMPRA])*sumx(Vendas,Vendas[QUANTIDADE])
@@ -182,7 +182,7 @@ Menu superior -> Guia Modelagem -> Nova Medida (observar que a tabela ``00_Medid
 
 ![18](/images/indicador.png)   
 
-* Na guia ``Formatar seu visual`` alterar os Eixos do medidor:
+* Na guia ``Formatar seu visual`` altere os Eixos do medidor:
 	* Máx = 0,1
 	* Destino = 0,05
 
@@ -198,7 +198,7 @@ Menu superior -> Guia Modelagem -> Nova Medida (observar que a tabela ``00_Medid
 	* Tabela Vendas ``ID_PEDIDO`` -> EIXO Y
 	* Tabela Vendas ``VALOR_TOTAL_VENDA`` -> EIXO X
 
-* Lembrar de alterar a agregação campo ``ID_PEDIDO`` para CONTAGEM
+* Lembrar de alterar a agregação do campo ``ID_PEDIDO`` para CONTAGEM
 
 ![20](/images/dispersao.png)
 
@@ -208,11 +208,11 @@ Menu superior -> Guia Modelagem -> Nova Medida (observar que a tabela ``00_Medid
 ## Conclusão
 
 
-* Por fim, já com todos os gráficos construídos agora podemos organizar o dashboard. Cada gráfico se comporta como uma caixa que pode ter suas dimensões alteradas
+* Por fim, já com todos os gráficos construídos, podemos organizar o dashboard. Cada gráfico se comporta como uma caixa que pode ter suas dimensões alteradas
 
 * Na guia Exibição no menu superior é possível fazer a alteração dos estilos, cores e outras formatações
 
-* A boa prática na construção de dashboards orienta a deixar um espaço entre os gráficos para não ficarem colados um no outro e para a visualização ficar melhor
+* A boa prática na construção de dashboards orienta deixar um espaço entre os gráficos para não ficarem colados um no outro e para melhorar a visualização
 
 * O resultado final do dashboard ficará parecido com as imagens abaixo:
 
