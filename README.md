@@ -212,10 +212,10 @@ Menu superior -> Guia Modelagem -> Nova Medida (observar que a tabela ``00_Medid
 
 * A boa prática na construção de dashboards orienta a deixar um espaço entre os gráficos para não ficarem colados um no outro e para a visualização ficar melhor
 
-* O resultado final do dashboard ficará parecido com a imagem abaixo:
+* O resultado final do dashboard ficará parecido com as imagens abaixo:
 
 ![21](/images/dashboard.png)
 
 ![22](/images/catalogo.png)
 
-* Lembrando existe o botão para acessar a página de catálogo de clientes, bem como o botão para retornar ao dashboard
+* Lembrando que existe o botão para acessar a página de catálogo de clientes, bem como o botão para retornar ao dashboard
