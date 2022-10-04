@@ -76,10 +76,10 @@ NOTA 2: Os campos que são utilizados para o relacionamento precisam ser iguais 
 ![7](/images/grafico3.1.png) 
 
 * Para inserir o filtro, abra a aba de filtros do visual e faça essas modificações no campo Nome:
-    Tipo de filtro = N superior
-    Mostrar itens = Superior - 5
-    Por valor = ``VALOR_TOTAL_VENDA``
-    Clique em ``Aplicar filtro``
+    * Tipo de filtro = N superior
+    * Mostrar itens = Superior - 5
+    * Por valor = ``VALOR_TOTAL_VENDA``
+    * Clique em ``Aplicar filtro``
 
 ![8](/images/filtros.png)  
 
