@@ -95,7 +95,8 @@ NOTA 2: Os campos que são utilizados para o relacionamento precisam ser iguais 
 
 ![9](/images/tabela_clientes.png)  
 
-* Adicione um botão para voltar para a página 1: Menu superior -> Inserir -> Botôes -> Voltar
+* Adicione um botão para voltar para a página 1
+    * Menu superior -> Inserir -> Botões -> Voltar
 
 * Clique no ícone do botão e na aba ``Formato`` clique em ``Ação``. O tipo da ação será ``Navegação por página`` e o destino será a ``Página 1``
 
