@@ -10,7 +10,7 @@ Esse projeto foi desenvolvido como forma de avaliação na disciplina **Dashboar
 ## Objetivo
 
 
-O objetivo geral desse projeto é conhecer a ferramenta Microsoft Power BI para visualização de dados disponibilizados em planilhas excel, além de desenvolver um dashboard para esses dados
+O objetivo geral desse projeto é conhecer a ferramenta Microsoft Power BI e desenvolver um dashboard interativo a partir de dados disponibilizados em planilhas eletrônicas
 
 
 ## Parte 1
